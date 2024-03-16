@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        prac.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git add prac.txt
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   prac.txt
+
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git config user.name "MahendraSWaghchaure"
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git config user.email "mahendra239waghchaure@gmail.com"
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git commit -m "hi git"
+[main 7d7547f] hi git
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 prac.txt
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git push origin main
+remote: Permission to MahendraSWaghchaure/sdm.git denied to MahendraSW.
+fatal: unable to access 'https://github.com/MahendraSWaghchaure/sdm.git/': The requested URL returned error: 403
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ ^C
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git push -u origin main
+remote: Permission to MahendraSWaghchaure/sdm.git denied to MahendraSW.
+fatal: unable to access 'https://github.com/MahendraSWaghchaure/sdm.git/': The requested URL returned error: 403
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git push -u origin main
+remote: Permission to MahendraSWaghchaure/sdm.git denied to MahendraSW.
+fatal: unable to access 'https://github.com/MahendraSWaghchaure/sdm.git/': The requested URL returned error: 403
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git push -u  origin main
+remote: Permission to MahendraSWaghchaure/sdm.git denied to MahendraSW.
+fatal: unable to access 'https://github.com/MahendraSWaghchaure/sdm.git/': The requested URL returned error: 403
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git push origin main
+info: please complete authentication in your browser...
+fatal: Access is denied
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/MahendraSWaghchaure/sdm.git/'
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 284 bytes | 284.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/MahendraSWaghchaure/sdm.git
+   c07fc66..7d7547f  main -> main
+
+Windows 11@Mahendra MINGW64 /d/sdm/sdm (main)
+$
